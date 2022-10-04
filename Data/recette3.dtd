@@ -1,0 +1,30 @@
+<!ELEMENT cuisine (ingredients|recettes|frigo)*>
+        <!ELEMENT ingredients (ing)*>
+        <!ELEMENT ing (nom)*>
+        <!ATTLIST ing
+                ref CDATA #REQUIRED
+                type CDATA #REQUIRED>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT recettes (recette)*>
+        <!ELEMENT recette (ingredients_utiles|operations|duree)*>
+        <!ATTLIST recette
+                nom CDATA #REQUIRED>
+        <!ELEMENT ingredients_utiles (ingredient)*>
+        <!ELEMENT ingredient (#PCDATA)>
+        <!ATTLIST ingredient
+                nb CDATA #IMPLIED
+                poids CDATA #IMPLIED
+                ref CDATA #REQUIRED
+                volume CDATA #IMPLIED>
+        <!ELEMENT operations (operation)*>
+        <!ELEMENT operation (#PCDATA | ing_op)*>
+        <!ELEMENT ing_op (#PCDATA)>
+        <!ATTLIST ing_op
+                ref CDATA #REQUIRED>
+        <!ELEMENT duree (#PCDATA)>
+        <!ELEMENT frigo (ing_frigo)*>
+        <!ELEMENT ing_frigo (#PCDATA)>
+        <!ATTLIST ing_frigo
+                nom CDATA #REQUIRED
+                poids CDATA #IMPLIED
+                volume CDATA #IMPLIED>

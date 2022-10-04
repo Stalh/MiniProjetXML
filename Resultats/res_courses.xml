@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<listeDeCourse><acheter><produit>Beurre</produit><quantite>125</quantite><quantitatif>
+            grammes
+        </quantitatif></acheter><acheter><produit>Eau</produit><quantite>24</quantite><quantitatif>
+            centillitres 
+        </quantitatif></acheter><acheter><produit>Sucre blanc</produit><quantite>220</quantite><quantitatif>
+            grammes
+        </quantitatif></acheter><acheter><produit>Chocolat noir</produit><quantite>100</quantite><quantitatif>
+            grammes
+        </quantitatif></acheter><acheter><produit>Oeuf(s)</produit><quantite>6</quantite><quantitatif>
+            unites
+        </quantitatif></acheter><acheter><produit>Banane(s)</produit><quantite>3</quantite><quantitatif>
+            unites
+        </quantitatif></acheter></listeDeCourse>

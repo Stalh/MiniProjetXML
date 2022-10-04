@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!DOCTYPE cuisine SYSTEM "recette3.dtd">
+<cuisine>
+<!-- ingerdient connus -->
+   <ingredients>
+      <ing ref="farine" type="solide">
+         <nom>Farine de ble</nom>
+      </ing>
+
+      <ing ref="beurre" type="solide">
+         <nom>Beurre</nom>
+      </ing>
+
+      <ing ref="huile" type="liquide">
+         <nom>Huile végétale</nom>
+      </ing>
+
+      <ing ref="eau" type="liquide">
+         <nom>Eau</nom>
+      </ing>
+
+      <ing ref="sel" type="solide">
+         <nom>Sel fin</nom>
+      </ing>
+
+      <ing ref="sucre" type="solide">
+         <nom>Sucre blanc</nom>
+      </ing>
+
+      <ing ref="chocolat" type="solide">
+         <nom>Chocolat noir</nom>
+      </ing>
+
+      <ing ref="lardons" type="solide">
+         <nom>Lardons</nom>
+      </ing>
+
+      <ing ref="pates" type="solide">
+         <nom>spaghettis</nom>
+      </ing>
+
+      <ing ref="creme" type="liquide">
+         <nom>creme fraiche</nom>
+      </ing>
+
+      <ing ref="oeuf" type="nombre">
+         <nom>Oeuf(s)</nom>
+      </ing>
+
+      <ing ref="banane" type="nombre">
+         <nom>Banane(s)</nom>
+      </ing>
+   </ingredients>
+
+<!-- recettes connues -->
+   <recettes>
+      <recette nom="gateau au chocolat">
+         <ingredients_utiles>
+            <ingredient ref="farine" poids="125" />
+
+            <ingredient ref="sucre" poids="220" />
+
+            <ingredient ref="oeuf" nb="3" />
+
+            <ingredient ref="huile" volume="100" />
+
+            <ingredient ref="chocolat" poids="100" />
+         </ingredients_utiles>
+
+         <operations>
+            <operation>Méler la 
+            <ing_op ref="farine" />
+
+            et le 
+            <ing_op ref="sucre" />
+            </operation>
+
+            <operation>ajouter les 
+            <ing_op ref="oeuf" />
+
+            un par un</operation>
+
+            <operation>ajouter l' 
+            <ing_op ref="huile" />
+            </operation>
+
+            <operation>ajouter le 
+            <ing_op ref="chocolat" />
+
+            fondu</operation>
+
+            <operation>faire cuire thermostat 5</operation>
+         </operations>
+
+         <duree>40</duree>
+      </recette>
+
+      <recette nom="cake à la banane">
+         <ingredients_utiles>
+            <ingredient ref="farine" poids="200" />
+
+            <ingredient ref="sucre" poids="150" />
+
+            <ingredient ref="beurre" poids="125" />
+
+            <ingredient ref="oeuf" nb="3" />
+
+            <ingredient ref="banane" nb="3" />
+         </ingredients_utiles>
+
+         <operations>
+            <operation>faire prechauffez le four</operation>
+
+            <operation>piler les 
+            <ing_op ref="banane" />
+            </operation>
+
+            <operation>faire fondre le 
+            <ing_op ref="beurre" />
+
+            , ajouter le 
+            <ing_op ref="sucre" />
+
+            et les 
+            <ing_op ref="oeuf" />
+            </operation>
+
+            <operation>mettre dans un moule et faire cuire</operation>
+         </operations>
+
+         <duree>40</duree>
+      </recette>
+
+      <recette nom="verre d'eau">
+         <ingredients_utiles>
+            <ingredient ref="eau" volume="25" />
+         </ingredients_utiles>
+
+         <operations>
+            <operation>verser l' 
+            <ing_op ref="eau" />
+
+            dans le verre</operation>
+         </operations>
+      </recette>
+
+      <recette nom="pates carbonara">
+         <ingredients_utiles>
+            <ingredient ref="lardons" poids="100" />
+
+            <ingredient ref="pates" poids="100" />
+
+            <ingredient ref="creme" volume="10" />
+         </ingredients_utiles>
+
+         <operations>
+            <operation>faire cuire les 
+            <ing_op ref="lardons" />
+            </operation>
+
+            <operation>ajouter la 
+            <ing_op ref="creme" />
+            </operation>
+
+            <operation>faire cuire les 
+            <ing_op ref="pates" />
+            </operation>
+
+            <operation>melanger</operation>
+         </operations>
+
+         <duree>15</duree>
+      </recette>
+   </recettes>
+
+<!-- ce que contient le frigo -->
+   <frigo>
+      <ing_frigo nom="creme" volume="1000" />
+
+      <ing_frigo nom="farine" poids="1000" />
+
+      <ing_frigo nom="lardons" poids="250" />
+
+      <ing_frigo nom="huile" volume="500" />
+
+      <ing_frigo nom="pates" poids="400" />
+
+      <ing_frigo nom="sucre" poids="150" />
+
+      <ing_frigo nom="eau" volume="1" />
+   </frigo>
+</cuisine>
+
